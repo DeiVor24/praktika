@@ -3,6 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
 .topLinePara {
     background: #60267F;
     text-align: center;
@@ -29,10 +43,7 @@
     
 }
 .navigationContainer {
-    display: flex;
     gap: 20px;
-    justify-content: center;
-    align-items: center;
 }
 
 .headerList {
@@ -57,4 +68,77 @@
     background: #9A54BC;
     color: #fff;
     cursor: pointer;
+}
+
+.section1 {  
+    margin-top: 100px;
+  
+}
+
+.headingContainer {
+    text-align: center;
+    gap: 50px;
+    
+    
+    
+
+
+}
+.heading {
+    font-size: 3rem;
+    color: #2B0236;
+    
+}
+.headingBtn {
+    padding: 20px 32px;
+    background-color: #9A54BC;
+    color: #fff;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+    
+
+}
+.headingBtn:hover{
+    background-color: white;
+    color: #9A54BC;
+    
+}
+
+.firstPhoneContainer {
+   
+    height: 500px;
+}
+.relative {
+    position: relative;
+
+}
+
+.absolute {
+    position: absolute;
+
+
+}
+.smallElipse {
+    top: 65px;
+
+}
+
+.rectangle {
+    top: 80px;
+}
+.collabWord {
+    top: 175px;
+}
+.elipseBtn {
+    bottom: 110px;
+    width: 140px;
+    padding: 10px 15px;
+    color: #60267F;
+    border: 2px solid #9A54BC;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
 }
