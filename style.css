@@ -17,6 +17,12 @@
     
 
 }
+
+.headerTwo {
+    font-size: 3rem;
+    color: black;
+
+}
 .topLinePara {
     background: #60267F;
     text-align: center;
@@ -141,4 +147,55 @@
     border-radius: 5px;
     background-color: white;
     font-weight: 700;
+}
+.topBrandsContainer {
+   margin-top: 100px;
+   gap: 100px;
+}
+
+.iconsContainer {
+   gap: 150px;
+
+}
+
+.iconsContainer img {
+    width: 100px;
+}
+.collabAppHelpContainer {
+    margin-top: 100px;
+    gap: 75px;
+}
+
+.mainContainer {
+    justify-content: space-between;
+}
+.leftparaContainer {
+width: 40%;
+}
+.buttonContainer { 
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 2px;
+    gap: 5px; 
+    box-shadow: 0px 3px 2px 0px #F2F2F2;
+    
+    
+}
+.buttonContainer button {
+
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;      
+    border: 2px solid #fff;  
+    background-color: transparent;
+
+}
+.buttonContainer button:hover {
+    border: 2px solid #9A54BC;
+    background-color: #60267F;
+    color: #fff;
+}
+.iconsContainer .lastImg {
+    width:215px;
+    height: 159px;
 }
