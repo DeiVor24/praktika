@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.fontRoboto{
+    font-family: "Roboto", sans-serif;
+}
 .flex {
     display: flex;
     justify-content: center;
@@ -198,4 +201,65 @@ width: 40%;
 .iconsContainer .lastImg {
     width:215px;
     height: 159px;
+    
+}
+.paraContainer {
+    gap: 10px;
+    margin margin-top: 30px;
+}
+
+.paraContainer p {
+    background-color: #F2F2F2;
+    padding: 1rem;
+}
+
+.paraContainer p span {
+    font-weight: 700;
+
+}
+.rightImgContainer {
+    width: 55%;
+    padding-top: 70px;
+    margin-top: 50px;
+    
+
+}
+.rightImgContainer img {
+    width: 300px;
+    
+}
+.bugetContainer{
+    margin-top: 100px;
+    height: 500px;
+    background-color: #9A54BC;
+    gap: 30px;
+  
+}
+.bugetContainer p{
+    font-size: 24px;
+    text-align: center;
+}
+
+.projectDoneContainer {
+    margin-top: 100px;
+    gap:50px;
+
+}
+.projectDoneCardsContainer {
+    width: 50%;
+    justify-content: space-between;
+}
+.card {
+    align-items: flex-start;
+    gap: 30px;
+}
+.card > span{
+    margin-left: 30px;
+}
+.card img {
+    width: 300px;
+}
+.projectDoneCardHeader{
+    color: #60267F;
+    font-weight: 500;
 }
