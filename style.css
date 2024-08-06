@@ -230,8 +230,7 @@ width: 40%;
 }
 .bugetContainer{
     margin-top: 100px;
-    height: 500px;
-    background-color: #9A54BC;
+    height: 700px;
     gap: 30px;
   
 }
@@ -241,7 +240,7 @@ width: 40%;
 }
 
 .projectDoneContainer {
-    margin-top: 100px;
+    margin-top: 50px;
     gap:50px;
 
 }
