@@ -368,12 +368,15 @@ Footer{
 }
 .footerContainer{
     width: 100%;
+    margin-bottom: 50px;
     
 
 }
-.mainFooterContainer{    
-    width: 62%;
+.mainFooterContainer{  
+    
+    width: 62%;    
     justify-content: space-between;
+    align-items: flex-start;
    }
 .leftFooter{
     width: 30%;
@@ -384,13 +387,17 @@ Footer{
     
 }
 .paraFooter{
+   
     font-size: 20px;
+    padding-bottom: 30px;
+    
+   
     
 }
 .followPara{
     font-size: 18px;
     font-weight:600;
-    margin: 20px 0 0px;
+    margin: 10px 0;
 }
 .iconsFooter{
     font-size: 30px;
@@ -400,7 +407,7 @@ Footer{
 
 .rightFooter{
     width: 60%;
-    height:fit-content;
+    margin-top: 0;
     
 }
 
@@ -416,7 +423,7 @@ Footer{
    .gapList{
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 30px;
     
    }
 
@@ -429,18 +436,7 @@ Footer{
     font-size: 18px;
     opacity: 0;
    }
-   @media (max-1535px) {
-    .imgFooter{
-        margin-left: 288px;    
-   }
-   .mainFooterContainer{    
-    width: 62%;
-    justify-content: space-between;
-   }
-
-   }
-   
-
+  
   
     
 
