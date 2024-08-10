@@ -370,6 +370,7 @@ Footer{
 
 }
 .mainFooterContainer{
+    
     width: 60%;
     justify-content: space-between;
    }
@@ -409,7 +410,7 @@ Footer{
    .gapList{
     display: flex;
     flex-direction: column;
-    gap: 29px;
+    gap: 18px;
     
    }
 
