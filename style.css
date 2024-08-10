@@ -37,7 +37,7 @@
 
 }
 .topLinePara {
-   color: var(--purple);
+   background-color: var(--purple);
     text-align: center;
     font-size: 12px;
     color: #fff;
@@ -358,3 +358,79 @@ width: 40%;
     transition: 0.2s;
 
 }
+Footer{
+    margin-top: 100px;
+}
+.imgFooter{
+    margin-left: 380px;
+}
+.footerContainer{
+    width: 100%;
+    
+
+}
+.mainFooterContainer{
+    width: 60%;
+    justify-content: space-between;
+   }
+.leftFooter{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+}
+.paraFooter{
+    font-size: 20px;
+    
+}
+.followPara{
+    font-size: 20px;
+    font-weight:600;
+    margin: 20px 0 0px;
+}
+.iconsFooter{
+    font-size: 30px;
+}
+.rightFooter{
+    width: 60%;
+    height:fit-content;
+    
+}
+
+.onlyFooterList{
+    gap: 100px;
+    align-items: flex-start;
+}
+.onlyFooterList a{
+    text-decoration: none;
+}
+   .gapList{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    
+   }
+
+   .boldName{
+    font-size: 19px;
+    font-weight: bold;
+    
+   }
+   .gone{
+    opacity: 0;
+   }
+
+   .emailFooter{
+    margin-top: 10px;
+   }
+.email{
+    font-size: 17px;
+    gap: 100px;
+   }
+  
+    
+
+
+   
