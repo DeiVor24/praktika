@@ -405,7 +405,9 @@ Footer{
     align-items: flex-start;
 }
 .onlyFooterList a{
+    font-size: 18px;
     text-decoration: none;
+
 }
    .gapList{
     display: flex;
@@ -420,16 +422,12 @@ Footer{
     
    }
    .gone{
+    font-size: 18px;
     opacity: 0;
    }
 
-   .emailFooter{
-    margin-top: 10px;
-   }
-.email{
-    font-size: 17px;
-    gap: 100px;
-   }
+   
+
   
     
 
