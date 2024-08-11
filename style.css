@@ -358,6 +358,179 @@ width: 40%;
     transition: 0.2s;
 
 }
+
+
+/* stars section */
+
+.starsContainer{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mainStarsContainer{
+    width: 80%;
+}
+
+
+.paraLeftRight{
+    justify-content:space-between;
+    align-items:center;
+    
+    
+    
+}
+.starsPara{
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    padding: 60px 0;
+    font-weight: bold;
+    
+}
+.designation{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* Join US */
+
+.joinUs{
+    width: 100%;
+}
+.staart { 
+    padding: 60px 0;
+    text-align: center;
+}
+
+.facesJoinUs{
+    
+}
+.lineYouSize {
+   margin-left: 50px;
+   width: 1000px;
+   height: 300px;
+}
+
+
+
+.imgSize { 
+  width: 100px;
+}
+
+.facesJoinUs{
+    position:relative;
+}
+
+.one16{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.two17{
+    position:absolute;
+    top:140px;
+    left:120px;
+}
+.three18{
+    position:absolute;
+    top:120px;
+    left:300px;
+}
+.four19{
+    position:absolute;
+    top:190px;
+    left:440px;
+}
+.five20{
+    position:absolute;
+    top:200px;
+    left:600px;
+}
+.six21{
+    position:absolute;
+    top:180px;
+    left:780px;
+}
+.seven22{
+    position:absolute;
+    top:200px;
+    left:930px;
+}
+.eight23{
+    position:absolute;
+    top:100px;
+    left:990px;
+}
+.youEnd{
+    position:absolute;
+    top:82px;
+    left:890px;
+    color: #9A54BC;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.btnJoinUs{
+    width: 200px;
+    position:absolute;
+    top:0px;
+    left:calc(50% - 100px);
+    background-color: #9A54BC;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Footer{
     margin-top: 100px;
   
@@ -442,6 +615,7 @@ Footer{
      font-size: 12px;
      color: #fff;
      padding: 5px 0;  
+   }
   
   
     
